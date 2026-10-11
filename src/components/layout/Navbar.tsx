@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { ChevronDown, Mail, Phone, X } from "lucide-react";
+import { ChevronDown, LockKeyhole, Mail, Phone, X } from "lucide-react";
 import { useSite } from "@/components/providers/SiteProvider";
 import TopBar from "./TopBar";
 import type { NavItem } from "@/data/types";
@@ -198,6 +198,17 @@ export default function Navbar() {
 
           <div className="flex items-center gap-3">
             <Link
+              href="/admin/login"
+              aria-label="Admin login"
+              title="Admin login"
+              className="group hidden items-center gap-2 rounded-full border border-ivory/20 py-2 pl-2.5 pr-4 text-[11px] font-semibold uppercase tracking-[0.18em] text-ivory/80 transition-colors hover:border-gold hover:text-gold-soft sm:inline-flex"
+            >
+              <span className="flex h-6 w-6 items-center justify-center rounded-full bg-gold/15 text-gold-soft ring-1 ring-gold/40 transition-colors group-hover:bg-gold group-hover:text-plum-deep">
+                <LockKeyhole size={12} />
+              </span>
+              Admin
+            </Link>
+            <Link
               href="/contact"
               className="hidden border border-gold/70 px-5 py-2.5 text-[11px] font-semibold uppercase tracking-[0.22em] transition-colors hover:bg-gold hover:text-plum-deep md:inline-block"
             >
@@ -276,6 +287,9 @@ export default function Navbar() {
               ))}
             </ul>
             <div className="relative space-y-3 border-t border-ivory/10 pt-6 text-sm text-ivory/70">
+              <Link href="/admin/login" onClick={() => setOpen(false)} className="flex items-center gap-3 font-semibold text-gold-soft hover:text-gold">
+                <LockKeyhole size={16} className="text-gold" /> Admin login
+              </Link>
               {site.phone && (
                 <a href={telHref(site.phone)} className="flex items-center gap-3 hover:text-gold">
                   <Phone size={16} className="text-gold" /> {site.phone}
