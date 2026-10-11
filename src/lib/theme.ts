@@ -20,6 +20,7 @@ export const PALETTE: { key: string; label: string; hint: string; default: strin
   { key: "plum-deep", label: "Darkest plum", hint: "Header, footer, darkest areas", default: "#1f1627" },
   { key: "plum-soft", label: "Soft plum", hint: "Hover and secondary dark tones", default: "#4a3858" },
   { key: "mist", label: "Muted lavender-grey", hint: "Secondary text", default: "#8c7f99" },
+  { key: "silver", label: "Silver", hint: "Metallic accent; also a section background option", default: "#c4c4cc" },
 ];
 
 export type SectionStyle = "solid" | "glow";

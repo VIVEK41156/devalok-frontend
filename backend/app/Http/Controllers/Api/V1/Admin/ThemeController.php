@@ -17,7 +17,7 @@ use Illuminate\Http\Request;
  */
 class ThemeController extends Controller
 {
-    public const PALETTE = ['lavender', 'lilac', 'gold', 'gold-deep', 'gold-soft', 'ivory', 'parchment', 'plum', 'plum-deep', 'plum-soft', 'mist'];
+    public const PALETTE = ['lavender', 'lilac', 'gold', 'gold-deep', 'gold-soft', 'ivory', 'parchment', 'plum', 'plum-deep', 'plum-soft', 'mist', 'silver'];
 
     public const SECTIONS = [
         'topbar', 'header', 'footer',
