@@ -35,7 +35,7 @@ export default async function AboutPage() {
       />
 
       {/* Philosophy */}
-      <RevealScope as="section" aria-labelledby="philosophy-title" className="grain relative bg-ivory py-24 sm:py-32">
+      <RevealScope as="section" data-bg="about_philosophy" aria-labelledby="philosophy-title" className="grain relative bg-ivory py-24 sm:py-32">
         <div className="mx-auto grid max-w-[1400px] gap-16 px-5 sm:px-8 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <SectionHeading
@@ -64,7 +64,7 @@ export default async function AboutPage() {
       </RevealScope>
 
       {/* Craftsmanship mosaic */}
-      <RevealScope as="section" aria-label="Craftsmanship" className="bg-plum py-20 sm:py-28">
+      <RevealScope as="section" data-bg="about_craft" aria-label="Craftsmanship" className="bg-plum py-20 sm:py-28">
         <div className="mx-auto grid max-w-[1400px] grid-cols-2 gap-4 px-5 sm:px-8 md:grid-cols-12 md:gap-6">
           <figure className="relative col-span-2 aspect-[16/10] overflow-hidden md:col-span-7 md:row-span-2 md:aspect-auto">
             <div data-reveal="mask" className="absolute inset-0">
@@ -88,7 +88,7 @@ export default async function AboutPage() {
       </RevealScope>
 
       {/* Materials */}
-      <RevealScope as="section" aria-labelledby="materials-title" className="grain bg-ivory py-24 sm:py-32">
+      <RevealScope as="section" data-bg="about_materials" aria-labelledby="materials-title" className="grain bg-ivory py-24 sm:py-32">
         <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
           <SectionHeading
             eyebrow="Materials & categories"

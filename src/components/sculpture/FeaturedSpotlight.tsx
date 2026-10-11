@@ -12,7 +12,7 @@ export default function FeaturedSpotlight({ sculpture }: { sculpture: Sculpture 
   const { openSculpture } = useSculptureViewer();
   const { categoryName } = useSite();
   return (
-    <RevealScope as="section" aria-labelledby="spotlight-title" className="relative overflow-hidden bg-lavender py-20 sm:py-28">
+    <RevealScope as="section" data-bg="gallery_spotlight" aria-labelledby="spotlight-title" className="relative overflow-hidden bg-lavender py-20 sm:py-28">
       <div aria-hidden className="pointer-events-none absolute left-1/2 top-1/2 h-[620px] w-[620px] -translate-x-1/2 -translate-y-1/2 rounded-full border border-gold/25 lg:left-[28%]" />
       <div className="relative mx-auto grid max-w-[1400px] items-center gap-12 px-5 sm:px-8 lg:grid-cols-2">
         <div className="relative mx-auto aspect-[4/5] w-full max-w-md">

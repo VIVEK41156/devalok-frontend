@@ -28,7 +28,7 @@ export default async function SignatureSculptures() {
   if (!tiles.length) return null;
 
   return (
-    <RevealScope as="section" aria-labelledby="signature-title" className="grain relative bg-ivory py-24 sm:py-32">
+    <RevealScope as="section" data-bg="home_signature" aria-labelledby="signature-title" className="grain relative bg-ivory py-24 sm:py-32">
       <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
         <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
           <SectionHeading

@@ -111,6 +111,8 @@ export interface SiteSettings {
   seoTitleTemplate?: string | null;
   seoDefaultDescription?: string | null;
   seoDefaultOgImage?: string | null;
+  /** Admin → Theme & Colors (validated hex values only). */
+  theme?: { palette: Record<string, string>; sections: Record<string, string> } | null;
 }
 
 export interface Review {

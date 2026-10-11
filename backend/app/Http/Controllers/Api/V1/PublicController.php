@@ -134,6 +134,9 @@ class PublicController extends Controller
     private function publicSettings(): array
     {
         $values = SiteSetting::publicValues();
+        // Theme colours are returned as structured, validated data (see ThemeController).
+        unset($values['theme']);
+        $values['theme'] = \App\Http\Controllers\Api\V1\Admin\ThemeController::current();
         foreach ($values as $key => $value) {
             if (str_ends_with($key, '_media_id')) {
                 $media = $value ? Media::find((int) $value) : null;

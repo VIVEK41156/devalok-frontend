@@ -396,7 +396,7 @@ export default function GalleryHall3D() {
     <section ref={root} aria-labelledby="hall-title" className="relative bg-plum-deep text-ivory" style={{ height: `${(n + 1.6) * 95}vh` }}>
       <div className="sticky top-0 h-[100svh] overflow-hidden">
         {/* Atmosphere: static gradients only (no blur or blend modes) */}
-        <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_38%,#5a4370_0%,#30233b_42%,#150f1b_85%)]" />
+        <div aria-hidden data-bg="home_hall" className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_38%,#5a4370_0%,#30233b_42%,#150f1b_85%)]" />
         <div aria-hidden className="pointer-events-none absolute left-1/2 top-0 h-[75%] w-[46vw] -translate-x-1/2 bg-[radial-gradient(ellipse_at_50%_0%,rgba(233,221,248,0.22),rgba(233,221,248,0.05)_55%,transparent_75%)]" />
 
         {/* 3D stage */}

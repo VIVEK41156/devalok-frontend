@@ -33,11 +33,11 @@ export default async function ContactPage() {
         image={page?.featuredImage ? { src: page.featuredImage.src, alt: "" } : { src: "/images/cutouts/varaha-stone.webp", alt: "", cutout: true }}
       />
 
-      <RevealScope as="section" className="grain relative overflow-hidden bg-ivory py-20 sm:py-28">
+      <RevealScope as="section" data-bg="contact_section" className="grain relative overflow-hidden bg-ivory py-20 sm:py-28">
         <div aria-hidden className="pointer-events-none absolute -right-40 top-10 h-[560px] w-[560px] rounded-full bg-[radial-gradient(circle,rgba(217,197,240,0.55),transparent_65%)]" />
         <div className="relative mx-auto grid max-w-[1400px] items-stretch gap-8 px-5 sm:px-8 lg:grid-cols-12 lg:gap-10">
           {/* Violet info panel with sculpture */}
-          <aside data-reveal="rise3d" aria-label="Contact details" className="relative isolate flex flex-col overflow-hidden rounded-3xl bg-[linear-gradient(160deg,#4b3366_0%,#30233b_55%,#1f1627_100%)] p-7 text-ivory shadow-[0_50px_90px_-50px_rgba(48,35,59,0.9)] sm:p-10 lg:col-span-5">
+          <aside data-reveal="rise3d" data-bg="contact_panel" aria-label="Contact details" className="relative isolate flex flex-col overflow-hidden rounded-3xl bg-[linear-gradient(160deg,#4b3366_0%,#30233b_55%,#1f1627_100%)] p-7 text-ivory shadow-[0_50px_90px_-50px_rgba(48,35,59,0.9)] sm:p-10 lg:col-span-5">
             <div aria-hidden className="absolute -right-24 -top-24 -z-10 h-80 w-80 rounded-full bg-[radial-gradient(circle,rgba(217,197,240,0.35),transparent_65%)]" />
             <p className="eyebrow text-gold-soft">Reach us directly</p>
             <h2 className="mt-3 font-display text-4xl leading-tight sm:text-5xl">

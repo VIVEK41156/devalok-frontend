@@ -67,7 +67,7 @@ export default async function Reviews() {
   const rowB = reviews.length > 3 ? reviews.slice(mid) : reviews;
 
   return (
-    <RevealScope as="section" aria-labelledby="reviews-title" className="grain relative overflow-hidden bg-[linear-gradient(160deg,#3d2b52_0%,#30233b_45%,#4b3366_100%)] py-24 text-ivory sm:py-32">
+    <RevealScope as="section" data-bg="home_reviews" aria-labelledby="reviews-title" className="grain relative overflow-hidden bg-[linear-gradient(160deg,#3d2b52_0%,#30233b_45%,#4b3366_100%)] py-24 text-ivory sm:py-32">
       <div aria-hidden className="pointer-events-none absolute -left-32 top-10 h-[520px] w-[520px] rounded-full bg-[radial-gradient(circle,rgba(217,197,240,0.28),transparent_65%)]" />
       <div aria-hidden className="pointer-events-none absolute -right-40 bottom-0 h-[560px] w-[560px] rounded-full bg-[radial-gradient(circle,rgba(200,164,93,0.18),transparent_65%)]" />
 

@@ -9,6 +9,7 @@ use App\Http\Controllers\Api\V1\Admin\MenuItemController;
 use App\Http\Controllers\Api\V1\Admin\PageController;
 use App\Http\Controllers\Api\V1\Admin\ReviewController;
 use App\Http\Controllers\Api\V1\Admin\SmtpController;
+use App\Http\Controllers\Api\V1\Admin\ThemeController;
 use App\Http\Controllers\Api\V1\Admin\SculptureController;
 use App\Http\Controllers\Api\V1\Admin\SeoController;
 use App\Http\Controllers\Api\V1\Admin\SettingController;
@@ -63,6 +64,8 @@ Route::prefix('v1')->group(function () {
             Route::put('settings', [SettingController::class, 'update']);
             Route::apiResource('users', UserController::class)->except('show');
             Route::get('activity-logs', ActivityLogController::class);
+            Route::get('theme', [ThemeController::class, 'show']);
+            Route::put('theme', [ThemeController::class, 'update']);
             Route::get('smtp', [SmtpController::class, 'show']);
             Route::put('smtp', [SmtpController::class, 'update']);
             Route::delete('smtp', [SmtpController::class, 'destroy']);

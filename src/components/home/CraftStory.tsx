@@ -116,7 +116,7 @@ export default function CraftStory() {
 
   if (reduceMotion) {
     return (
-      <section aria-labelledby="craft-title" className="bg-plum py-24 text-ivory">
+      <section data-bg="home_craft" aria-labelledby="craft-title" className="bg-plum py-24 text-ivory">
         <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
           <p className="eyebrow text-gold-soft">{sec?.eyebrow ?? "The art & the craft"}</p>
           <h2 id="craft-title" className="mt-4 font-display text-5xl">
@@ -141,7 +141,7 @@ export default function CraftStory() {
   }
 
   return (
-    <section ref={root} aria-labelledby="craft-title" className="grain relative h-[100svh] min-h-[620px] overflow-hidden bg-plum text-ivory">
+    <section ref={root} data-bg="home_craft" aria-labelledby="craft-title" className="grain relative h-[100svh] min-h-[620px] overflow-hidden bg-plum text-ivory">
       <div aria-hidden className="pointer-events-none absolute inset-0">
         <div className="absolute -left-[10%] top-[10%] h-[70vh] w-[70vh] rounded-full bg-[radial-gradient(circle,rgba(200,164,93,0.18),transparent_65%)]" />
         <div className="absolute -right-[5%] bottom-0 h-[60vh] w-[60vh] rounded-full bg-[radial-gradient(circle,rgba(217,197,240,0.14),transparent_65%)]" />

@@ -61,6 +61,7 @@ export default async function ProductsPage() {
             key={c.id}
             id={c.slug}
             aria-labelledby={`${c.slug}-title`}
+            data-bg={i % 2 === 0 ? "products_a" : "products_b"}
             className={`grain relative scroll-mt-16 py-20 sm:py-28 ${i % 2 === 0 ? "bg-ivory" : "bg-lavender"}`}
           >
             <div className="mx-auto max-w-[1400px] px-5 sm:px-8">

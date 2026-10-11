@@ -16,7 +16,7 @@ interface Props {
 export default function PageHero({ eyebrow, title, intro, image, children }: Props) {
   return (
     <RevealScope as="header" className="grain relative isolate overflow-hidden bg-plum-deep text-ivory">
-      <div aria-hidden className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_80%_30%,#4a3858_0%,#30233b_45%,#1f1627_85%)]" />
+      <div aria-hidden data-bg="page_header" className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_80%_30%,#4a3858_0%,#30233b_45%,#1f1627_85%)]" />
       {image?.cutout && (
         <div aria-hidden className="absolute bottom-0 right-[-10%] top-[calc(var(--nav-h)+16px)] -z-10 w-[70%] opacity-40 md:right-[4%] md:w-[38%] md:opacity-100">
           <div className="absolute inset-x-0 bottom-0 top-[8%] rounded-t-full bg-[radial-gradient(circle_at_50%_45%,rgba(233,221,248,0.5),rgba(217,197,240,0.15)_45%,transparent_70%)]" />

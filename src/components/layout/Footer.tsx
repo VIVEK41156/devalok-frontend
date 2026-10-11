@@ -10,7 +10,7 @@ export default async function Footer() {
   const categories = cms.getCategories();
   const navItems = cms.data.menus.footer.length ? cms.data.menus.footer : cms.data.menus.header;
   return (
-    <footer className="grain relative overflow-hidden bg-plum-deep text-ivory">
+    <footer data-bg="footer" className="grain relative overflow-hidden bg-plum-deep text-ivory">
       <div aria-hidden className="pointer-events-none absolute -left-40 top-10 h-[480px] w-[480px] rounded-full border border-gold/10" />
       <div aria-hidden className="pointer-events-none absolute -bottom-60 right-[-10%] h-[600px] w-[600px] rounded-full bg-[radial-gradient(circle,rgba(217,197,240,0.12),transparent_65%)]" />
 

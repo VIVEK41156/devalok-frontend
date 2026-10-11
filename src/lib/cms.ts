@@ -209,6 +209,7 @@ function mapSettings(s: ApiSettings): SiteSettings {
     seoTitleTemplate: str(s.seo_title_template),
     seoDefaultDescription: str(s.seo_default_description),
     seoDefaultOgImage: mediaUrl(s.seo_default_og),
+    theme: (s.theme as unknown as SiteSettings["theme"]) ?? null,
   };
 }
 

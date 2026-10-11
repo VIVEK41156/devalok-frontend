@@ -34,7 +34,7 @@ export default function CategoryTabs({ categories }: { categories: Category[] })
   }, [categories]);
 
   return (
-    <nav aria-label="Collections" className="sticky top-[var(--nav-h)] z-30 border-b border-gold/30 bg-ivory/90 backdrop-blur-xl">
+    <nav data-bg="products_tabs" aria-label="Collections" className="sticky top-[var(--nav-h)] z-30 border-b border-gold/30 bg-ivory/90 backdrop-blur-xl">
       <ul className="no-scrollbar mx-auto flex max-w-[1400px] gap-1 overflow-x-auto px-5 py-3 sm:justify-center sm:px-8">
         {categories.map((c, i) => {
           const on = active === c.slug;

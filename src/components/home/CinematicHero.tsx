@@ -206,7 +206,7 @@ export default function CinematicHero() {
     >
       {/* Atmosphere */}
       <div aria-hidden className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_70%_45%,#4a3858_0%,#30233b_40%,#1f1627_80%)]" />
+        <div data-bg="home_hero" className="absolute inset-0 bg-[radial-gradient(ellipse_at_70%_45%,#4a3858_0%,#30233b_40%,#1f1627_80%)]" />
         <div
           data-hero="aura"
           className="absolute left-1/2 top-[64%] h-[min(80vh,760px)] w-[min(80vh,760px)] -translate-x-1/2 -translate-y-1/2 lg:left-[70%] lg:top-[52%]"

@@ -8,7 +8,7 @@ import { titleOf } from "@/components/ui/SectionTitle";
 export default async function GalleryPreview() {
   const sec = (await getSite()).section("home", "gallery_preview");
   return (
-    <RevealScope as="section" id="gallery-preview" aria-labelledby="preview-title" className="grain relative bg-parchment py-24 sm:py-32">
+    <RevealScope as="section" data-bg="home_gallery" id="gallery-preview" aria-labelledby="preview-title" className="grain relative bg-parchment py-24 sm:py-32">
       <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
         <SectionHeading
           eyebrow={sec?.eyebrow ?? "The gallery"}

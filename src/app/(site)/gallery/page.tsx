@@ -32,7 +32,7 @@ export default async function GalleryPage() {
 
       {spotlight && <FeaturedSpotlight sculpture={spotlight} />}
 
-      <RevealScope as="section" aria-labelledby="all-title" className="grain bg-ivory py-20 sm:py-28">
+      <RevealScope as="section" data-bg="gallery_grid" aria-labelledby="all-title" className="grain bg-ivory py-20 sm:py-28">
         <div className="mx-auto max-w-[1400px] px-5 sm:px-8">
           <h2 id="all-title" data-reveal="words" className="font-display text-4xl text-plum sm:text-5xl">
             <SplitWords>The full collection</SplitWords>

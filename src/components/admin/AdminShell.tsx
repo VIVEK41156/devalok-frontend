@@ -25,6 +25,7 @@ import {
   X,
   Navigation,
   Mail,
+  Palette,
   Star,
 } from "lucide-react";
 import { useAuth } from "./AuthProvider";
@@ -46,6 +47,7 @@ export const ADMIN_NAV: NavLink[] = [
   { href: "/admin/sections", label: "Homepage Sections", icon: LayoutTemplate },
   { href: "/admin/menus", label: "Navigation Menus", icon: Navigation },
   { href: "/admin/settings", label: "Site Settings", icon: Settings, adminOnly: true },
+  { href: "/admin/theme", label: "Theme & Colors", icon: Palette, adminOnly: true },
   { href: "/admin/enquiries", label: "Contact Enquiries", icon: Inbox },
   { href: "/admin/reviews", label: "Reviews", icon: Star },
   { href: "/admin/seo", label: "SEO Settings", icon: Search },

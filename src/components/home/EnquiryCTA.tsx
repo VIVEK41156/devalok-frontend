@@ -11,7 +11,7 @@ export default async function EnquiryCTA() {
   const sec = site.section("home", "cta");
   const phone = site.data.settings.phone;
   return (
-    <RevealScope as="section" aria-labelledby="cta-title" className="grain relative overflow-hidden bg-plum text-ivory">
+    <RevealScope as="section" data-bg="cta" aria-labelledby="cta-title" className="grain relative overflow-hidden bg-plum text-ivory">
       <div aria-hidden className="absolute inset-0 bg-[radial-gradient(ellipse_at_75%_60%,rgba(217,197,240,0.25),transparent_55%)]" />
       <div className="relative mx-auto grid max-w-[1400px] items-center gap-12 px-5 py-24 sm:px-8 sm:py-28 lg:grid-cols-12">
         <div className="lg:col-span-7">

@@ -15,6 +15,7 @@ export default async function BrandValues({ tone = "lavender" }: { tone?: "laven
     <RevealScope
       as="section"
       aria-labelledby="values-title"
+      data-bg="values"
       className={`relative overflow-hidden py-24 sm:py-32 ${tone === "lavender" ? "bg-lavender" : "bg-ivory"}`}
     >
       <svg aria-hidden viewBox="0 0 400 400" className="pointer-events-none absolute -right-24 -top-24 h-[420px] w-[420px] text-gold/30" fill="none">

@@ -89,6 +89,8 @@ export default function Navbar() {
   return (
     <>
       <header
+        data-bg="header"
+        data-solid={solid ? "true" : "false"}
         className={`fixed inset-x-0 top-0 z-50 text-ivory transition-[background-color,box-shadow,backdrop-filter] duration-500 ${
           solid
             ? "bg-plum-deep/88 shadow-[0_1px_0_rgba(200,164,93,0.4),0_20px_40px_-20px_rgba(0,0,0,0.5)] backdrop-blur-xl"

@@ -56,6 +56,7 @@ export default function TopBar({ collapsed }: { collapsed: boolean }) {
 
   return (
     <div
+      data-bg="topbar"
       className={`overflow-hidden bg-lavender text-plum transition-[height,opacity] duration-500 ease-[var(--ease-luxe)] ${collapsed ? "h-0 opacity-0" : "h-[var(--topbar-h)] opacity-100"}`}
       aria-hidden={collapsed}
     >

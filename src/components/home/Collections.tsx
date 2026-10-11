@@ -13,7 +13,7 @@ export default async function Collections() {
   const categories = site.getCategories();
   const sec = site.section("home", "collections");
   return (
-    <RevealScope as="section" aria-labelledby="collections-title" className="relative overflow-hidden bg-lavender py-24 sm:py-32">
+    <RevealScope as="section" data-bg="home_collections" aria-labelledby="collections-title" className="relative overflow-hidden bg-lavender py-24 sm:py-32">
       <div aria-hidden className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold/60 to-transparent" />
       <div aria-hidden className="pointer-events-none absolute -left-40 bottom-0 h-[520px] w-[520px] rounded-full bg-[radial-gradient(circle,rgba(250,247,240,0.8),transparent_65%)]" />
       <div className="relative mx-auto max-w-[1400px] px-5 sm:px-8">

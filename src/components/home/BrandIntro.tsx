@@ -10,7 +10,7 @@ export default async function BrandIntro() {
   const sec = site.section("home", "introduction");
   const { vision, mission } = site.data.settings;
   return (
-    <RevealScope as="section" id="introduction" aria-labelledby="intro-title" className="grain relative overflow-hidden bg-ivory py-24 sm:py-32">
+    <RevealScope as="section" data-bg="home_intro" id="introduction" aria-labelledby="intro-title" className="grain relative overflow-hidden bg-ivory py-24 sm:py-32">
       <div aria-hidden className="pointer-events-none absolute -right-40 top-20 h-[520px] w-[520px] rounded-full bg-[radial-gradient(circle,rgba(217,197,240,0.55),transparent_65%)]" />
       <div className="relative mx-auto grid max-w-[1400px] items-center gap-16 px-5 sm:px-8 lg:grid-cols-12 lg:gap-10">
         {/* Image composition */}
