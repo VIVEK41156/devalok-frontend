@@ -1,0 +1,737 @@
+{
+ "sculptures": [
+  {
+   "id": "dvk-001",
+   "slug": "kanyaka-parameshwari",
+   "name": "Sri Kanyaka Parameshwari",
+   "category": "stone",
+   "deity": "Devi",
+   "finish": "Dark stone",
+   "summary": "A standing goddess framed by a flowing prabhavali arch.",
+   "description": "The goddess stands in serene frontal posture beneath a foliate prabhavali crowned with a kirtimukha. A parrot rests on the lotus in her upper hand, while finely carved girdles, bells and pleated drapery fall in layered rhythm to the lotus pedestal.",
+   "image": {
+    "src": "/images/sculptures/kanyaka-parameshwari-stone.jpg",
+    "width": 878,
+    "height": 1600,
+    "alt": "Black stone sculpture of Sri Kanyaka Parameshwari standing under a carved arch"
+   },
+   "cutout": {
+    "src": "/images/cutouts/kanyaka-parameshwari-stone.webp",
+    "width": 655,
+    "height": 1459
+   },
+   "details": [
+    {
+     "label": "Crown & face",
+     "x": 52,
+     "y": 25,
+     "zoom": 2.6
+    },
+    {
+     "label": "Jewelled girdle",
+     "x": 52,
+     "y": 55,
+     "zoom": 2.2
+    },
+    {
+     "label": "Lotus pedestal",
+     "x": 52,
+     "y": 86,
+     "zoom": 2.2
+    }
+   ],
+   "featured": true,
+   "order": 1
+  },
+  {
+   "id": "dvk-002",
+   "slug": "anantha-narayana",
+   "name": "Anantha Narayana",
+   "category": "stone",
+   "deity": "Vishnu",
+   "finish": "Grey granite",
+   "summary": "Vishnu seated in royal ease beneath the five-hooded Adishesha.",
+   "description": "Seated on the coils of Adishesha, Vishnu holds the chakra and shankha aloft while the serpent's five hoods open like a canopy above his crown. The granular stone gives the coils a living texture, contrasted with smooth limbs and crisp ornament.",
+   "image": {
+    "src": "/images/sculptures/anantha-narayana-stone.jpg",
+    "width": 1058,
+    "height": 1600,
+    "alt": "Grey stone sculpture of Vishnu seated beneath the five-hooded serpent Adishesha"
+   },
+   "cutout": {
+    "src": "/images/cutouts/anantha-narayana-stone.webp",
+    "width": 838,
+    "height": 1411
+   },
+   "details": [
+    {
+     "label": "Serpent canopy",
+     "x": 54,
+     "y": 14,
+     "zoom": 2.1
+    },
+    {
+     "label": "Face & kirita",
+     "x": 52,
+     "y": 38,
+     "zoom": 2.8
+    },
+    {
+     "label": "Coiled seat",
+     "x": 52,
+     "y": 78,
+     "zoom": 2
+    }
+   ],
+   "featured": true,
+   "order": 2
+  },
+  {
+   "id": "dvk-003",
+   "slug": "varaha-avatar",
+   "name": "Varaha Avatar",
+   "category": "stone",
+   "deity": "Vishnu",
+   "finish": "Dark stone",
+   "summary": "The boar avatar of Vishnu, carved in deep relief against a temple niche.",
+   "description": "Varaha strides forward with mace in hand, a garland sweeping across his body, the small seated figure of Bhudevi resting at his shoulder. The niche behind is worked with lotus petals and scrolling vines in the temple idiom.",
+   "image": {
+    "src": "/images/sculptures/varaha-stone.jpg",
+    "width": 1031,
+    "height": 1600,
+    "alt": "Dark stone relief sculpture of Varaha, the boar avatar of Vishnu"
+   },
+   "cutout": {
+    "src": "/images/cutouts/varaha-stone.webp",
+    "width": 734,
+    "height": 1458
+   },
+   "details": [
+    {
+     "label": "Varaha head",
+     "x": 46,
+     "y": 24,
+     "zoom": 2.4
+    },
+    {
+     "label": "Bhudevi",
+     "x": 74,
+     "y": 21,
+     "zoom": 3.2
+    },
+    {
+     "label": "Mace & garland",
+     "x": 40,
+     "y": 70,
+     "zoom": 2.2
+    }
+   ],
+   "featured": true,
+   "order": 3
+  },
+  {
+   "id": "dvk-004",
+   "slug": "radha-krishna-kadamba",
+   "name": "Radha Krishna beneath the Kadamba",
+   "category": "wood",
+   "deity": "Krishna",
+   "finish": "Rich red wood",
+   "summary": "An openwork panel where flute, foliage and birds intertwine.",
+   "description": "Krishna plays the flute as Radha leans in with a water pot, both standing on a double lotus base. Above them the kadamba tree dissolves into pierced, scrolling foliage alive with birds, a demanding feat of undercutting in a single panel.",
+   "image": {
+    "src": "/images/sculptures/radha-krishna-wood.jpg",
+    "width": 698,
+    "height": 1800,
+    "alt": "Hand-carved red wood panel of Radha and Krishna beneath an openwork tree"
+   },
+   "details": [
+    {
+     "label": "Openwork canopy",
+     "x": 50,
+     "y": 14,
+     "zoom": 2
+    },
+    {
+     "label": "Krishna with flute",
+     "x": 30,
+     "y": 38,
+     "zoom": 2.4
+    },
+    {
+     "label": "Radha",
+     "x": 74,
+     "y": 42,
+     "zoom": 2.4
+    }
+   ],
+   "featured": true,
+   "order": 4
+  },
+  {
+   "id": "dvk-005",
+   "slug": "hoysala-venugopala",
+   "name": "Hoysala-style Venugopala",
+   "category": "wood",
+   "deity": "Krishna",
+   "finish": "Natural wood",
+   "summary": "Krishna with the flute, framed by scenes in the Hoysala manner.",
+   "description": "Carved in the spirit of Hoysala temple art, Venugopala plays beneath a serpent-hood arch while bands of cowherds and cattle unfold on either side. The polished surface catches light along the crown, bangles and cascading jewellery.",
+   "image": {
+    "src": "/images/sculptures/venugopala-wood.jpg",
+    "width": 968,
+    "height": 1800,
+    "alt": "Hand-carved Hoysala style Krishna playing the flute"
+   },
+   "details": [
+    {
+     "label": "Face & crown",
+     "x": 52,
+     "y": 22,
+     "zoom": 2.4
+    },
+    {
+     "label": "Flute hand",
+     "x": 24,
+     "y": 23,
+     "zoom": 2.8
+    },
+    {
+     "label": "Narrative bands",
+     "x": 86,
+     "y": 52,
+     "zoom": 2.6
+    }
+   ],
+   "featured": true,
+   "order": 5
+  },
+  {
+   "id": "dvk-006",
+   "slug": "seated-radha-krishna",
+   "name": "Seated Radha Krishna",
+   "category": "stone",
+   "deity": "Krishna",
+   "finish": "Natural grey finish",
+   "summary": "A tender, life-like pair captured in the carving workshop.",
+   "description": "Krishna and Radha sit side by side, he lost in the flute and she cradling a pot, their gazes turned in quiet companionship. Photographed in the workshop, it shows the soft modelling of limbs and the carved borders of their garments.",
+   "image": {
+    "src": "/images/sculptures/radha-krishna-stone.jpg",
+    "width": 1600,
+    "height": 1200,
+    "alt": "Seated stone sculpture of Radha and Krishna in the workshop"
+   },
+   "details": [
+    {
+     "label": "Krishna",
+     "x": 32,
+     "y": 26,
+     "zoom": 2.2
+    },
+    {
+     "label": "Radha",
+     "x": 66,
+     "y": 28,
+     "zoom": 2.2
+    }
+   ],
+   "featured": false,
+   "order": 6
+  },
+  {
+   "id": "dvk-007",
+   "slug": "panchamukha-ganapati",
+   "name": "Panchamukha Ganapati",
+   "category": "stone",
+   "deity": "Ganesha",
+   "finish": "Black-coated finish",
+   "summary": "Five faces of Ganapati within a grand ornamental arch.",
+   "description": "Five elephant faces rise in a single crowned row, set inside a deep oval prabhavali of scrolling foliage with a latticed screen behind. A monumental piece whose depth of carving rewards close viewing.",
+   "image": {
+    "src": "/images/sculptures/panchamukha-ganapati.jpg",
+    "width": 1200,
+    "height": 1600,
+    "alt": "Black sculpture of five-faced Panchamukha Ganapati inside a carved arch"
+   },
+   "details": [
+    {
+     "label": "Five faces",
+     "x": 50,
+     "y": 50,
+     "zoom": 1.8
+    },
+    {
+     "label": "Arch ornament",
+     "x": 22,
+     "y": 22,
+     "zoom": 2.4
+    }
+   ],
+   "featured": true,
+   "order": 7
+  },
+  {
+   "id": "dvk-008",
+   "slug": "sri-venkateswara",
+   "name": "Sri Venkateswara",
+   "category": "wood",
+   "deity": "Vishnu",
+   "finish": "Dark polished finish",
+   "summary": "The Lord of the Seven Hills, garlanded and standing tall.",
+   "description": "Venkateswara stands in benediction with the chakra and shankha raised, a long carved garland of blossoms falling to his feet. The high crown, namam and layered pedestal follow the familiar Tirumala iconography.",
+   "image": {
+    "src": "/images/sculptures/venkateswara.jpg",
+    "width": 724,
+    "height": 1600,
+    "alt": "Dark finish sculpture of Sri Venkateswara with a carved garland"
+   },
+   "details": [
+    {
+     "label": "Kirita & namam",
+     "x": 50,
+     "y": 17,
+     "zoom": 2.6
+    },
+    {
+     "label": "Carved garland",
+     "x": 22,
+     "y": 60,
+     "zoom": 2.4
+    }
+   ],
+   "featured": false,
+   "order": 8
+  },
+  {
+   "id": "dvk-009",
+   "slug": "venugopala-prabhavali",
+   "name": "Venugopala with Prabhavali",
+   "category": "wood",
+   "deity": "Krishna",
+   "finish": "Red wood",
+   "summary": "Dancing Krishna framed by pillars and a pierced arch.",
+   "description": "Krishna dances with the flute within a pillared prabhavali, every surface worked with fine floral carving.",
+   "image": {
+    "src": "/images/sculptures/krishna-prabhavali-wood.jpg",
+    "width": 224,
+    "height": 436,
+    "alt": "Red wood sculpture of Krishna with flute in a carved arch"
+   },
+   "details": [],
+   "featured": false,
+   "order": 9
+  },
+  {
+   "id": "dvk-010",
+   "slug": "nritya-ganapati",
+   "name": "Nritya Ganapati",
+   "category": "wood",
+   "deity": "Ganesha",
+   "finish": "Red wood",
+   "summary": "Ganapati in joyous dance on a lotus pedestal.",
+   "description": "A free-standing dancing Ganapati, the raised leg and swaying arms carved with a lively sense of movement.",
+   "image": {
+    "src": "/images/sculptures/nritya-ganapati-wood.jpg",
+    "width": 225,
+    "height": 436,
+    "alt": "Red wood sculpture of dancing Ganapati"
+   },
+   "details": [],
+   "featured": false,
+   "order": 10
+  },
+  {
+   "id": "dvk-011",
+   "slug": "krishna-openwork-arch",
+   "name": "Krishna in Openwork Arch",
+   "category": "wood",
+   "deity": "Krishna",
+   "finish": "Red wood",
+   "summary": "A flute-playing Krishna enveloped in lace-like carving.",
+   "description": "Krishna stands within a dense openwork surround of foliage and figures, a showcase of pierced woodcarving.",
+   "image": {
+    "src": "/images/sculptures/venugopala-panel-wood.jpg",
+    "width": 224,
+    "height": 436,
+    "alt": "Red wood openwork carving of Krishna playing the flute"
+   },
+   "details": [],
+   "featured": false,
+   "order": 11
+  },
+  {
+   "id": "dvk-012",
+   "slug": "seated-ganapati",
+   "name": "Seated Ganapati",
+   "category": "stone",
+   "deity": "Ganesha",
+   "finish": "Grey stone",
+   "summary": "Ganapati enthroned beneath a kirtimukha arch.",
+   "description": "A seated Ganapati in classical posture, framed by pillars and a kirtimukha-crowned arch.",
+   "image": {
+    "src": "/images/sculptures/ganapati-stone.jpg",
+    "width": 225,
+    "height": 436,
+    "alt": "Grey stone sculpture of seated Ganapati"
+   },
+   "details": [],
+   "featured": false,
+   "order": 12
+  },
+  {
+   "id": "dvk-013",
+   "slug": "seated-lakshmi",
+   "name": "Seated Lakshmi",
+   "category": "stone",
+   "deity": "Devi",
+   "finish": "Grey stone",
+   "summary": "The goddess of abundance seated in grace.",
+   "description": "Four-armed Lakshmi sits in a relaxed pose under a scrolling arch, an elephant motif carved into the base.",
+   "image": {
+    "src": "/images/sculptures/seated-lakshmi-stone.jpg",
+    "width": 224,
+    "height": 436,
+    "alt": "Grey stone sculpture of seated Lakshmi"
+   },
+   "details": [],
+   "featured": false,
+   "order": 13
+  },
+  {
+   "id": "dvk-014",
+   "slug": "radha-krishna-brass",
+   "name": "Radha Krishna with Kamadhenu",
+   "category": "metal",
+   "deity": "Krishna",
+   "finish": "Brass",
+   "summary": "The divine couple with the sacred cow, cast in gleaming brass.",
+   "description": "Radha and Krishna stand together with the flute, the sacred cow at their side, in a polished brass casting.",
+   "image": {
+    "src": "/images/sculptures/radha-krishna-brass.jpg",
+    "width": 224,
+    "height": 436,
+    "alt": "Brass sculpture of Radha and Krishna with a cow"
+   },
+   "details": [],
+   "featured": false,
+   "order": 14
+  },
+  {
+   "id": "dvk-015",
+   "slug": "seated-shiva-brass",
+   "name": "Seated Shiva",
+   "category": "metal",
+   "deity": "Shiva",
+   "finish": "Brass",
+   "summary": "Shiva with trishula and damaru, seated on the rock of Kailasa.",
+   "description": "Four-armed Shiva sits in benediction, holding the trishula and damaru, with crescent moon and flowing locks.",
+   "image": {
+    "src": "/images/sculptures/shiva-brass.jpg",
+    "width": 225,
+    "height": 436,
+    "alt": "Brass sculpture of seated Shiva with trishula"
+   },
+   "details": [],
+   "featured": false,
+   "order": 15
+  },
+  {
+   "id": "dvk-016",
+   "slug": "kneeling-hanuman-brass",
+   "name": "Kneeling Hanuman",
+   "category": "metal",
+   "deity": "Hanuman",
+   "finish": "Brass",
+   "summary": "Hanuman in devoted salute with his mace.",
+   "description": "Hanuman kneels with one hand raised in blessing and the gada resting on his shoulder, on an ornamented oval base.",
+   "image": {
+    "src": "/images/sculptures/hanuman-brass.jpg",
+    "width": 224,
+    "height": 436,
+    "alt": "Brass sculpture of kneeling Hanuman holding a mace"
+   },
+   "details": [],
+   "featured": false,
+   "order": 16
+  },
+  {
+   "id": "dvk-017",
+   "slug": "marble-vishnu",
+   "name": "Standing Vishnu in Marble",
+   "category": "marble",
+   "deity": "Vishnu",
+   "finish": "White marble, gilded",
+   "summary": "Vishnu in benediction, his marble form touched with gold.",
+   "description": "A standing four-armed Vishnu beneath an arched frame, the white marble heightened with gilding on the crown, garments and attributes, with a small devotee at his side.",
+   "image": {
+    "src": "/images/sculptures/marble-vishnu.jpg",
+    "width": 850,
+    "height": 1800,
+    "alt": "White marble sculpture of standing Vishnu with gilded details"
+   },
+   "details": [
+    {
+     "label": "Face & crown",
+     "x": 42,
+     "y": 12,
+     "zoom": 2.6
+    },
+    {
+     "label": "Gilded drapery",
+     "x": 45,
+     "y": 46,
+     "zoom": 2.2
+    }
+   ],
+   "reference": {
+    "credit": "Honolulu Museum of Art, 18th century",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Vishnu,_18th_century,_marble,_Honolulu_Museum_of_Art_2016-43-02.JPG"
+   },
+   "featured": true,
+   "order": 17
+  },
+  {
+   "id": "dvk-018",
+   "slug": "marble-sarasvati",
+   "name": "Goddess Sarasvati",
+   "category": "marble",
+   "deity": "Devi",
+   "finish": "White marble",
+   "summary": "The goddess of wisdom in graceful tribhanga, finely jewelled.",
+   "description": "Sarasvati stands in a gentle three-bend posture holding a manuscript and water vessel, her jewellery and halo carved with remarkable delicacy, attended by small figures at her feet.",
+   "image": {
+    "src": "/images/sculptures/marble-sarasvati.jpg",
+    "width": 856,
+    "height": 1800,
+    "alt": "Marble sculpture of the goddess Sarasvati standing with attendants"
+   },
+   "details": [
+    {
+     "label": "Face & halo",
+     "x": 47,
+     "y": 15,
+     "zoom": 2.6
+    },
+    {
+     "label": "Jewellery",
+     "x": 47,
+     "y": 42,
+     "zoom": 2.4
+    }
+   ],
+   "reference": {
+    "credit": "National Museum, New Delhi",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Delhi-National_Museum-Sarasvati-20151006;jpg.jpg"
+   },
+   "featured": false,
+   "order": 18
+  },
+  {
+   "id": "dvk-019",
+   "slug": "marble-celestial-nymph",
+   "name": "Celestial Nymph Bracket",
+   "category": "marble",
+   "deity": "Apsara",
+   "finish": "White marble",
+   "summary": "A temple bracket alive with movement and playful grace.",
+   "description": "Carved as an architectural bracket, a celestial nymph turns in a lively pose, teasing a boy at her side. The deep undercutting lets light pass through the marble.",
+   "image": {
+    "src": "/images/sculptures/marble-celestial-nymph.jpg",
+    "width": 989,
+    "height": 1800,
+    "alt": "Marble temple bracket carved as a celestial nymph"
+   },
+   "details": [
+    {
+     "label": "Upper figure",
+     "x": 50,
+     "y": 25,
+     "zoom": 2.2
+    }
+   ],
+   "reference": {
+    "credit": "Los Angeles County Museum of Art",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Architectural_Bracket_in_the_Form_of_a_Celestial_Nymph_Teasing_a_Boy_LACMA_M.71.73.132_(1_of_5).jpg"
+   },
+   "featured": false,
+   "order": 19
+  },
+  {
+   "id": "dvk-020",
+   "slug": "marble-jina-neminatha",
+   "name": "Jina Neminatha",
+   "category": "marble",
+   "deity": "Tirthankara",
+   "finish": "White marble",
+   "summary": "A meditating Jina enthroned beneath an ornate canopy.",
+   "description": "The Jina sits in deep meditation on a lion throne, framed by a canopy of elephants, foliage and attendant figures, with Ambika and Gomedha carved at the base.",
+   "image": {
+    "src": "/images/sculptures/marble-jina-neminatha.jpg",
+    "width": 1263,
+    "height": 1800,
+    "alt": "Marble sculpture of the seated Jina Neminatha under a carved canopy"
+   },
+   "details": [
+    {
+     "label": "Serene face",
+     "x": 50,
+     "y": 30,
+     "zoom": 2.6
+    },
+    {
+     "label": "Canopy",
+     "x": 50,
+     "y": 10,
+     "zoom": 2
+    }
+   ],
+   "reference": {
+    "credit": "Norton Simon Museum, Pasadena",
+    "license": "Public domain",
+    "url": "https://commons.wikimedia.org/wiki/File:Jina_Neminatha_with_Ambika_and_Gomedha,_India,_Rajasthan_or_Gujarat,_1000s_AD,_marble_-_Norton_Simon_Museum_-_Pasadena,_CA_-_DSC03585.jpg"
+   },
+   "featured": false,
+   "order": 20
+  },
+  {
+   "id": "dvk-021",
+   "slug": "marble-jain-saraswati",
+   "name": "Saraswati with Tirthankaras",
+   "category": "marble",
+   "deity": "Devi",
+   "finish": "White marble",
+   "summary": "The goddess framed by a lace-like marble shrine.",
+   "description": "Saraswati stands within a richly pierced frame filled with tirthankaras, celestial beings and donors, a showcase of the fine detail marble allows.",
+   "image": {
+    "src": "/images/sculptures/marble-jain-saraswati.jpg",
+    "width": 995,
+    "height": 1800,
+    "alt": "Marble sculpture of Saraswati within a carved frame of small figures"
+   },
+   "details": [
+    {
+     "label": "Pierced frame",
+     "x": 50,
+     "y": 18,
+     "zoom": 2.2
+    }
+   ],
+   "reference": {
+    "credit": "British Museum, London",
+    "license": "CC0",
+    "url": "https://commons.wikimedia.org/wiki/File:Saraswati_surrounded_by_tirthankaras,_celestial_beings,_and_donors,_Jain,_southern_or_western_Rajasthan,_India,_c._1050-1100_AD,_marble_-_British_Museum_-_DSC01148.jpg"
+   },
+   "featured": false,
+   "order": 21
+  }
+ ],
+ "categories": [
+  {
+   "id": "stone",
+   "slug": "stone",
+   "name": "Stone Sculptures",
+   "shortName": "Stone",
+   "tagline": "Traditional art. Divine perfection.",
+   "description": "Hand-sculpted stone statues created by skilled artisans with timeless craftsmanship: strong, elegant and made for a lifetime of worship.",
+   "coverImage": "/images/sculptures/panchamukha-ganapati.jpg",
+   "order": 1
+  },
+  {
+   "id": "wood",
+   "slug": "wood",
+   "name": "Wood Sculptures",
+   "shortName": "Wood",
+   "tagline": "Pure devotion. Natural finish.",
+   "description": "Divine wooden statues with detailed hand-carving and traditional artistry, with a natural finish and lasting quality in every piece.",
+   "coverImage": "/images/sculptures/radha-krishna-wood.jpg",
+   "order": 2
+  },
+  {
+   "id": "metal",
+   "slug": "metal",
+   "name": "Metal Sculptures",
+   "shortName": "Metal",
+   "tagline": "Crafted to inspire. Built to last.",
+   "description": "Moulded metal statues made with precision, shine and durability, suited to temples, homes and meaningful gifting.",
+   "coverImage": "/images/brand/collection-metal.jpg",
+   "order": 3
+  },
+  {
+   "id": "marble",
+   "slug": "marble",
+   "name": "Marble Sculptures",
+   "shortName": "Marble",
+   "tagline": "Luminous stone. Serene grace.",
+   "description": "Sculptures in fine white marble, prized for its soft translucence and the delicate detail it can hold, from serene deities to ornamental pieces.",
+   "coverImage": "/images/sculptures/marble-celestial-nymph.jpg",
+   "order": 4
+  }
+ ],
+ "site": {
+  "name": "Devalok Sculptures",
+  "shortName": "Devalok",
+  "tagline": "Divine Craftsmanship",
+  "copyrightYear": 2026,
+  "url": "https://devaloksculptures.in",
+  "description": "Devalok Sculptures brings devotion to life through finely crafted stone, wood, metal and marble sculptures that celebrate India's timeless spiritual heritage.",
+  "email": "info@devaloksculptures.in",
+  "phone": "+91 89044 92240",
+  "phoneHref": "tel:+918904492240",
+  "address": {
+   "lines": [
+    "1st Cross, Muneshwara Nagar",
+    "Behind Maharama Temple, Bagalgunte",
+    "Bengaluru 560073"
+   ],
+   "mapHref": "https://www.google.com/maps/search/?api=1&query=Muneshwara+Nagar+Bagalgunte+Bangalore+560073"
+  },
+  "vision": "To preserve India's spiritual artistry by creating timeless sculptures.",
+  "mission": "To craft authentic stone, metal, and wood sculptures through skilled artisans."
+ },
+ "navItems": [
+  {
+   "label": "Home",
+   "href": "/"
+  },
+  {
+   "label": "About Us",
+   "href": "/about"
+  },
+  {
+   "label": "Products",
+   "href": "/products"
+  },
+  {
+   "label": "Gallery",
+   "href": "/gallery"
+  },
+  {
+   "label": "Contact Us",
+   "href": "/contact"
+  }
+ ],
+ "values": [
+  {
+   "numeral": "I",
+   "title": "Artistry",
+   "text": "Every form begins as a drawing of proportion and posture, refined until the figure feels alive in its stillness."
+  },
+  {
+   "numeral": "II",
+   "title": "Craftsmanship",
+   "text": "Stone, wood, metal and marble are shaped by skilled hands, with the patience each material asks for."
+  },
+  {
+   "numeral": "III",
+   "title": "Cultural Inspiration",
+   "text": "Our forms draw on India's temple traditions, from the ornate prabhavali arch to the grace of a dancing Ganapati."
+  },
+  {
+   "numeral": "IV",
+   "title": "Attention to Detail",
+   "text": "Crowns, jewellery, drapery and lotus bases are carved line by line, because devotion lives in the details."
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+# Uploaded media only. Never execute scripts from this directory
+# (uploads are re-encoded JPEG/PNG/WebP with generated names; this is defence in depth).
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+RemoveHandler .php .phtml .phar .php3 .php4 .php5 .php7 .php8 .pht
+RemoveType .php .phtml .phar
+<FilesMatch "\.(php|phtml|phar|pht|php[0-9])$">
+    Require all denied
+</FilesMatch>
+Options -Indexes

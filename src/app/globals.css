@@ -1,26 +1,227 @@
 @import "tailwindcss";
 
+@theme {
+  --color-lavender: #e9ddf8;
+  --color-lilac: #d9c5f0;
+  --color-gold: #c8a45d;
+  --color-gold-deep: #a8853f;
+  --color-gold-soft: #e6d3a3;
+  --color-ivory: #faf7f0;
+  --color-parchment: #f3ede1;
+  --color-plum: #30233b;
+  --color-plum-deep: #1f1627;
+  --color-plum-soft: #4a3858;
+  --color-mist: #8c7f99;
+
+  --font-display: var(--font-cormorant), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-manrope), system-ui, sans-serif;
+
+  --ease-luxe: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --nav-h: 124px;
+  --topbar-h: 38px;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@media (max-width: 639px) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --nav-h: 104px;
   }
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--nav-h);
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-ivory);
+  color: var(--color-plum);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--color-gold);
+  color: var(--color-plum-deep);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+/* Fine gold hairline ornament: ——◆—— */
+.gold-rule {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-gold);
+}
+.gold-rule::before,
+.gold-rule::after {
+  content: "";
+  height: 1px;
+  width: 44px;
+  background: linear-gradient(90deg, transparent, currentColor);
+}
+.gold-rule::after {
+  background: linear-gradient(90deg, currentColor, transparent);
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+}
+
+.text-gold-sheen {
+  background: linear-gradient(100deg, #a8853f 0%, #e6d3a3 45%, #c8a45d 60%, #a8853f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Subtle paper grain so flat fields feel printed rather than digital */
+.grain {
+  position: relative;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+@keyframes scroll-cue {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(200%);
+  }
+}
+.animate-scroll-cue {
+  animation: scroll-cue 2.2s var(--ease-luxe) infinite;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Hero curtain: two plum panels with gold edges part on load */
+.curtain-panel {
+  position: relative;
+  flex: 1;
+  background: linear-gradient(90deg, #1f1627, #30233b 60%, #3a2a47);
+  animation: curtain-open 1.25s cubic-bezier(0.76, 0, 0.24, 1) 0.15s forwards;
+}
+.curtain-right {
+  background: linear-gradient(270deg, #1f1627, #30233b 60%, #3a2a47);
+  animation-name: curtain-open-right;
+}
+.curtain-left::after,
+.curtain-right::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(180deg, transparent, #c8a45d 30%, #e6d3a3 50%, #c8a45d 70%, transparent);
+}
+.curtain-left::after {
+  right: 0;
+}
+.curtain-right::after {
+  left: 0;
+}
+@keyframes curtain-open {
+  to {
+    transform: translateX(-101%);
+    visibility: hidden;
+  }
+}
+@keyframes curtain-open-right {
+  to {
+    transform: translateX(101%);
+    visibility: hidden;
+  }
+}
+
+/* Collections accordion: first panel stays open until another is hovered/focused */
+@media (min-width: 1024px) {
+  .acc:not(:hover):not(:focus-within) > li:first-child {
+    flex-grow: 2.6;
+  }
+  .acc:not(:hover):not(:focus-within) > li:first-child .acc-body {
+    opacity: 1;
+  }
+  .acc:not(:hover):not(:focus-within) > li:first-child .acc-vert {
+    opacity: 0;
+  }
+}
+
+/* Top bar collection carousel: the track holds the list twice, so -50% loops seamlessly */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.animate-marquee {
+  animation: marquee 38s linear infinite;
+}
+.animate-marquee-reverse {
+  animation: marquee 38s linear infinite reverse;
+}
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee,
+  .animate-marquee-reverse {
+    animation: none;
+  }
+}
+
+/* Hall of Devotion atmosphere */
+@keyframes beam {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes dust {
+  0% {
+    transform: translate3d(0, 20px, 0);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translate3d(30px, -160px, 0);
+    opacity: 0;
+  }
 }
