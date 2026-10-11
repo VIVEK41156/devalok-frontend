@@ -8,6 +8,7 @@ import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { ChevronDown, LockKeyhole, Mail, Phone, X } from "lucide-react";
 import { useSite } from "@/components/providers/SiteProvider";
 import TopBar from "./TopBar";
+import HeaderSearch from "./HeaderSearch";
 import type { NavItem } from "@/data/types";
 
 // Used only if the CMS menu is empty or unreachable, so the site stays navigable.
@@ -199,6 +200,7 @@ export default function Navbar() {
           </ul>
 
           <div className="flex items-center gap-3">
+            <HeaderSearch solid={solid} />
             <Link
               href="/admin/login"
               aria-label="Admin login"
